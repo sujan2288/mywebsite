@@ -1,0 +1,68 @@
+#top-right{
+
+    color: black;
+  
+    
+    position: absolute;
+    top: 100px;
+    right: 160px;
+    font-size: 30px;
+}
+
+/* #right is id and .mb-4 is a class. */
+/* place the text "if yoiu dont have...." on the top right of the wesbsite. */
+#right{
+    position: absolute;
+    top: 200px;
+    right: 60px;
+
+}
+
+.mb-4{
+    color: red;
+}
+
+#text-image{
+    position: absolute;
+    top: 180px;
+    left: -600px;
+    font-size: 30px;
+    color: red;
+}
+#btn-move{
+    background-color: blue;
+    color: white;
+    margin-top: -50px;
+}
+
+/* #body { 
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+   } */
+
+#container {
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+    }
+    body {
+        display: flex;
+        flex-direction: column; /* creates rows out of the elements main and footer */
+        height: 100vh; 
+        margin:0;
+      }
+      
+      main {
+        flex: 1 0 auto; /* allows the content to grow but not shrink */
+      }
+      
+      footer {
+        background: orange;
+      }
+#image{
+    height: 100%;
+    margin-bottom: -100px
+}
+.flex-container {
+    display: flex;
+  }
